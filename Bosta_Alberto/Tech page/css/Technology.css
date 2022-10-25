@@ -1,0 +1,195 @@
+/*--------------------------------------------------------------
+Css for technology page:
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+*{
+   box-sizing: border-box;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+font-family: poppins, sans-serif;
+}
+#tech{
+    display:none;
+}
+.welcome{
+    width: min(100%);
+    height:50vh;
+    margin-inline: auto;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(rgba(15, 1, 1, 0.3),rgba(3, 3, 17, 0.3));
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/*--------------------------------------------------------------
+Technology video:
+--------------------------------------------------------------*/
+
+.welcome video{
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 40vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.welcome p span {
+    color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.01em;
+   
+   
+}
+
+.welcome p{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    
+}
+
+/*--------------------------------------------------------------
+Brief history
+--------------------------------------------------------------*/
+.tech_feat{
+    width: min(80%);
+    height: 50vh;
+    margin-inline: auto;
+    margin-top: 40px;
+
+}
+.tech_feat h2{
+    font-family: poppins;
+    text-align: justify;
+    font-size: clamp(1em,3vw, 1.5em);
+}
+
+.tech_feat h4{
+    font-weight: 300;
+    text-align: justify;
+    font-size: clamp(1em,3vw, 1.5em);
+    
+}
+
+.techpic {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(60%, 1fr) );
+	
+    
+}
+
+.techpic > div{
+width: 80%;
+height: 50vh;
+margin-inline: auto;
+
+}
+
+.repairs{
+    background: url(../img/alberto.png);
+    background-size:cover;
+    object-fit: contain;
+    width: 100%;
+}
+
+.techpictext h3{
+    font-size: clamp(1em,3vw, 1.5em);
+    font-family: poppins;
+    text-align: justify;
+}
+
+.techpictext h5{
+    font-size: clamp(1em,3vw, 1.5em);
+    font-weight: 300;
+    text-align: justify;
+}
+
+.design{
+
+    margin-top: 10px;
+    width: 100%;
+    height: 50vh;
+    background: #000;
+    
+    
+}
+
+.design_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    grid-gap: 0.5rem;
+  
+    margin-top: 1rem; 
+    
+    
+
+	
+}
+
+.design_container > div{
+    width: 17rem;
+    height: 50vh;
+    margin-inline: auto;
+    margin-top: 2rem;
+    
+
+    
+}
+
+.designtext{
+   
+    font-size: clamp(1.1em,3vw, 1.6em); 
+    
+
+}
+
+.designtext span{
+    
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: clamp(1em,3vw, 5em);
+    align-items: center;
+    margin-inline: auto;
+}
+
+.design_img img{
+    background-size: cover;
+    object-fit:contain;
+    height: 50vh;
+    width: 16em;
+}
+
+
+.d_description h3{
+   font-size: clamp(1em,3vw, 2em); 
+   font-weight: 300;
+}
+
+.alberto{
+    margin-top: 10px;
+    width: 100%;
+    height: 25vh;
+   background-color: rgb(39, 39, 39);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-size: 3em;
+}
