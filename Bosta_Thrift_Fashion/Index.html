@@ -1,0 +1,910 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <-- search script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#searchX").click(function () {
+          $("#forms").hide();
+        });
+        $("#search").click(function () {
+          $("#forms").show();
+        });
+      });
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- THE MAIN CSS -->
+    <link rel="stylesheet" href="css/Index.css" />
+
+    <!-- THE FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+   <!-- THE LOGO -->
+   <link rel="icon" href="./img/korrahasfinishedmelogo.png" type="png/img" style="width: 20000px;">
+    <title>Thrift FashionStores</title>
+  </head>
+  <body style="background: #ffffffb6;">
+    <!-- THE HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid p-4">
+        <a class="navbar-brand" href="#"
+          ><span id="logo"><img src="./img/korrahasfinishedmelogo.png" width="80px" height="60px" alt="Logo"> Thrift</span>
+          <span class="d-3">FashionStores</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- THE LINKS -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-briefcase"></i> Products
+              </a>
+              <div class="dropdown-menu bg-secondary">
+                <a class="dropdown-item" href="#household"
+                  ><i class="fa-solid fa-home" aria-hidden="true"></i>Household
+                  items</a
+                >
+                <a class="dropdown-item" href="#Shoes"
+                  ><i class="fas fa-shoe-prints"></i>Shoes</a
+                >
+                <a class="dropdown-item" href="#clothes"
+                  ><i class="fa-solid fa-shirt"></i>Clothing
+                </a>
+                <a class="dropdown-item" href="#Accessories"
+                  ><i class="fa-solid fa-diamond"></i>Accessories</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                ><i class="fa-solid fa-info-circle"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contactus"
+                ><i class="fa-solid fa-address-book"></i>Contact Us</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a
+            ><i class="fa fa-user" aria-hidden="true" id="fafa" > Hi,  <span id="username"></span></i
+          >
+        </a>
+        <a id="forms">
+          <label for="text">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-xmark" id="searchX"></i>
+          </label>
+        </a>
+              <a>
+                <i class="fa fa-search" aria-hidden="true" id="search">
+                </i></a>
+                <h4 class="okay">
+              <a ><i class="fa fa-shopping-cart" aria-hidden="true" id="cart"></i
+              ></a>
+            </h4>
+           
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- The end of the header -->
+
+    <!-- THE BODY -->
+    <!-- First Section -->
+    <div class="slider">
+      <section class="main py-5" id="float" style="animation: slide 20s infinite;">
+        <div class="container text-white py-5">
+          <div class="row py-3" id="okay"> 
+            <div class="col-lg-10">
+              <h1>
+                <span id="logo">Thrift</span>
+                <span>FashionStores</span>
+                <br />
+                <span>LOOK AESTHETIC</span><br />
+                WITH US
+              </h1>
+              <button type="button" class="btn btn-outline-primary" id="btn">
+                LEARN MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <br />
+
+    <!-- THE CLOTHES SECTION -->
+    <section class="details" id="clothes">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SALE</p>
+                <img
+                  src="img/vicente-viana-gMqOGFozk_o-unsplash.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                  id="img1"
+                />
+                <figcaption class="text-right pr-3">
+                  <p>Orange Bikini</p>
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$500.00cj
+                      </span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper></a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SOLD</p>
+                <img
+                  src="img/2.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                />
+                <figcaption class="text-right pr-3">   <p>Alien_Ugo</p>
+                  
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$900.00</span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper></a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SALE</p>
+                <img
+                  src="img/3.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                />
+                <figcaption class="text-right pr-3">
+                  <p>Leather Jacket</p>
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$700.00</span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SOLD</p>
+                <img
+                  src="img/4.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                />
+                <figcaption class="text-right pr-3">
+                  <p>Winter Jacket</p>
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$1000.00</span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper></a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SALE</p>
+                <img
+                  src="img/5.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                />
+                <figcaption class="text-right pr-3">
+                  <p>flower Gown</p>
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$1500.00</span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper></a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card back border-0">
+              <figure class="back-pics">
+                <p class="sale">SALE</p>
+                <img
+                  src="img/ospan-ali-nyrSsBzhZ4Y-unsplash.png"
+                  height="300px"
+                  width="300px"
+                  alt="a girl with bikini"
+                />
+                <figcaption class="text-right pr-3">
+                  <p>HitMan Feminine Coat</p>
+                  <a
+                    ><span
+                      class="text-left"
+                      style="float: left; margin: 13px 3px 0 3px"
+                      >$800.00</span
+                    >
+                    <span></span>
+                    <wrapper
+                      type="button"
+                      class="btn btn-outline-warning mt-1"
+                      id="btn"
+                    >
+                      Add-Chart
+                    </wrapper></a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="select"></div>
+    <!-- THE END OF THE CLOTHES SECTION -->
+
+    <!-- THE CAROSEL ASPECT  -->
+    <div class="container">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/beautiful-fashion-designer-thoughtfully-working-with-new-textile-cozy-sewing-workshop.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Scrap To New</h5>
+              <p>We refine and manufacture used clothes and old clothes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/young-beautiful-blonde-woman-jacket-blue-wall-with-mobile-phone-doing-online-shopping.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FAST AND FREE DELIVERY</h5>
+              <p>
+                We offer free delivery within Nigeria and 50% discount on every
+                delivery outside Nigeria.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/tamara-bellis-68csPWTnafo-unsplash.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WE SELL FABRICS</h5>
+              <p>
+                We sell all kinds of fabrics and bags
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleCaptions"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleCaptions"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- THE END OF CAROSEL -->
+    <br />
+
+    <!-- THE HOUSEHOLD SECTION -->
+    <div class="container">
+      <h1 class="display-3 text-center" id="household">Household items</h1>
+      <div class="row" id="flex">
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SOLD</p>
+              <img
+                src="img/House1.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Vacuum Cleaner</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$97.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/House2.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Dinning Setup</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$300.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="flex">
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/House3.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Kitchen Setup</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$100.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/House4.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Standing Fan</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$70.00</span
+                  >
+                  <wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END HOUSEHOLD -->
+    <!-- SHOES -->
+    <div class="container">
+      <h1 class="display-3 text-center" id="Shoes">Shoes</h1>
+      <div class="row" id="flex">
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/shoe2.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Asics Shoes</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$70.00</span
+                  >
+                  <wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SOLD</p>
+              <img
+                src="img/shoe3.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Sneakers</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$95.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/shoe5.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Gold Heels</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$30.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SHOES -->
+    <!-- Accessories -->
+    <div class="container">
+      <h1 class="display-3 text-center" id="Accessories">Accessories</h1>
+      <div class="row" id="flex">
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SOLD</p>
+              <img
+                src="img/acc1.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Gold Earings</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$90.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/acc6.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Diamond Earings</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$30.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="flex">
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/acc2.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Anonymous FaceMask</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$70.00</span
+                  >
+                  <wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SOLD</p>
+              <img
+                src="img/acc3.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Hair Tools</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$19.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card back border-0">
+            <figure class="back-pics">
+              <p class="sale">SALE</p>
+              <img
+                src="img/acc5.png"
+                height="300px"
+                width="300px"
+                alt="a girl with bikini"
+              />
+              <figcaption class="text-right pr-3">
+                <p>Silk Tie</p>
+                <a
+                  ><span
+                    class="text-left"
+                    style="float: left; margin: 13px 3px 0 3px"
+                    >$23.00</span
+                  ><wrapper
+                    type="button"
+                    class="btn btn-outline-warning mt-1"
+                    id="btn"
+                  >
+                    Add-Chart
+                  </wrapper></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end accessories -->
+
+
+
+    <!-- THE FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Thrift Fashionstore</h4>
+            <ul>
+              <li><a>about us</a></li>
+              <li><a>our services</a></li>
+              <li><a>privacy policy</a></li>
+              <li><a>team</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a>FAQ</a></li>
+              <li><a>shipping</a></li>
+              <li><a>returns</a></li>
+              <li><a>order status</a></li>
+              <li><a>payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a>clothes</a></li>
+              <li><a>household items</a></li>
+              <li><a>shoes</a></li>
+              <li><a>accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a><i class="fab fa-facebook-f"></i></a>
+              <a><i class="fab fa-twitter"></i></a>
+              <a><i class="fab fa-instagram"></i></a>
+              <a><i class="fab fa-linkedin-in"></i></a>
+              <ul class="footer-call">
+                <li>
+                  +2347037336105<span style="padding-left: 5px"
+                    ><i class="fa fa-phone"></i
+                  ></span>
+                </li>
+                <li>
+                  +2349065621980<span style="padding-left: 5px"
+                    ><i class="fa fa-phone"></i
+                  ></span>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-email-form" id="Contactus">
+              <input
+                type="email"
+                placeholder="PLEASE ENTER YOUR MAIL"
+                id="footer-email"
+                required="true"
+              />
+              <a href="mailto:teamkorra4@gmail.com"
+                ><input type="submit" value="Send" id="footer-email-btn"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/de/city/2346229">Calabar, Nigeria</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&size=medium&timezone=Africa%2FLagos" width="100%" height="115" frameborder="0" seamless></iframe> <small style="color:gray;">&copy; <a href="https://www.zeitzonenrechner.net/" style="color: gray;">TeamKorra</a></small> </div>
+      </div>
+
+    </footer>
+
+    <!-- END FOOTER -->
+    <div class="select"></div>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const username= document.getElementById("username");
+          function enter(){
+            var kora = prompt("Enter Username");
+            username.innerText = kora;
+          }
+          
+    
+          enter();
+    </script>
+  </body>
+</html>
+<!-- JAVASCRIPT -->
+<script type="text/javascript" src="js/main.js"></script> -->
