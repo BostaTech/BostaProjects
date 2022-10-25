@@ -102,7 +102,7 @@ margin-inline: auto;
 }
 
 .repairs{
-    background: url(/Alberto/img/alberto.png);
+    background: url(../img/alberto.png);
     background-size:cover;
     object-fit: contain;
     width: 100%;
