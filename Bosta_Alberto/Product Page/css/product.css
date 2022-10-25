@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+#pp{
+    display: none;
+}
+/* Men css */
+.Men{
+    background:url(../img/Random/Men.png);
+    width: 100%;
+    background-position:center;
+    margin: 0;
+    color: #ffffff;
+    background-size:cover;
+    object-fit: contain;
+    height: 45vh;
+    line-height: 1vh;
+  }
+.Men p{
+    font-size: larger;
+    padding-left: 1em;
+    padding-top:10vh;
+    color: #ffffff;
+  }
+.Men span{
+    font-weight:bold;
+    font-size: 50px;
+    line-height: 7vh;
+    }
+.row{
+   justify-content:space-evenly;
+  }
+.back-pics img{
+    width: 100%;
+    background-size:cover;
+}
+.card{
+    background: #d3d0d0;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+  /* rating css */
+.star{
+    color: #807c7c;
+    position: absolute;
+    cursor:pointer;
+    bottom:2em;
+}
+/* love icon */
+.love{
+    background: #afacacd7;
+    width: 1.8em;
+    height: 1.8em;
+    text-align: center;
+    padding: 2px 1px 1px 1px;
+    position: absolute;
+    color:#ffffff;
+    cursor:pointer;
+    border-radius: 15px;
+    right:1em;
+    top:0.5em;
+}
+/* prices and dummyn links*/
+a{
+    color:black;
+    cursor: pointer;
+}
+/* women css */
+.Women{
+    background:url(../img/Random/women.png);
+    width: 100%;
+    background-position:center;
+    margin: 0;
+    color: #ffffff;
+    background-size:cover;
+    object-fit: contain;
+    height: 40vh;
+    line-height: 1vh;
+  }
+  .Women p{
+    font-size: larger;
+    float:right;
+    padding-right:5rem;
+    padding-top:10vh;
+    color: #ffffff;
+}
+.Women span{
+    font-weight:bold;
+    font-size:45px;
+    line-height: 6vh;
+    padding-right: 20px;
+}
+/* Citezen Css */
+.Citezen{
+    display: none;
+}
+.Citezen h1{
+    text-align: center;
+}
+/* Rolex Css */
+.Rolex{
+    display: none;
+}
+.Rolex h1{
+    text-align: center;
+}
+/* Brand css */
+.Brand{
+    width: 100%;
+    height:30vh;
+    background: #e7e2e2;
+    padding: 10px;
+}
+h1{
+    padding-top: 15px;
+}
+#Brands{
+    display:flex;
+    justify-content: space-evenly;
+}
+.Brandlogo1{
+    width:30%;
+    height:13vh;
+    background-color: #d3d0d0;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.Brandlogo1:hover{
+    transform: translateY(-10px);
+}
+.Brandlogo1 img{
+    width:80%;
+    height: 7vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+.Brandlogo2{
+    width:30%;
+    height:13vh;
+    background-color: #d3d0d0;
+    justify-content:center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.Brandlogo2:hover{
+    transform: translateY(-10px);
+}
+.Brandlogo2 img{
+    width:100%;
+    height: 15vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+.Brandlogo3{
+    width:30%;
+    height:13vh;
+    background-color: #d3d0d0;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.Brandlogo3:hover{
+    transform: translateY(-10px);
+}
+.Brandlogo3 img{
+    width:100%;
+    height: 15vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+/* prices */
+#price:hover{
+    color:rgb(235, 81, 26);
+}
